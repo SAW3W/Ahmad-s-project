@@ -1,0 +1,97 @@
+body{
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(10,1fr);
+height: 100vh;
+margin: 0;
+padding: 0;
+
+}
+
+iframe{
+    justify-self: center;
+    align-self: center;
+}
+
+.one{
+    display: grid;
+    grid-column: 1/6;
+    grid-row: 1/6;
+    background-color: blue;
+    
+    }
+    
+    .two{
+    display: grid;
+    grid-column: 6/11;
+    grid-row: 1/6;
+    background-color: yellow;
+    
+    
+    }
+    
+    .three{
+    display: grid;
+    grid-column: 1/6;
+    grid-row: 6/11;
+    background-color: green;
+    
+    
+    }
+    
+    .four {
+        display: grid;
+        grid-column: 6/11;
+        grid-row: 6/11;
+        background-color: red;
+        
+    }
+
+
+@media only screen and (max-width: 1120px)
+{ 
+
+.one{
+display: grid;
+grid-column: 1/11;
+grid-row: 1/1;
+background-color: blue;
+padding: 5%;
+
+}
+
+.two{
+display: grid;
+grid-column: 1/11;
+grid-row: 2/2;
+background-color: yellow;
+padding: 5%;
+
+
+}
+
+.three{
+display: grid;
+grid-column: 1/11;
+grid-row: 3/3;
+background-color: green;
+padding: 5%;
+
+
+}
+
+.four {
+    display: grid;
+    grid-column: 1/11;
+    grid-row: 4/4;
+    background-color: red;
+    padding: 5%;
+    
+}
+
+
+  
+}
+
+
+
